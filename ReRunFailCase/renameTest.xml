@@ -1,0 +1,7 @@
+<suite name="regressionSuite" verbose="1" >
+  <test name="helperstest"   >
+    <packages>
+      <package name="test" />
+   </packages>
+ </test>
+</suite>
