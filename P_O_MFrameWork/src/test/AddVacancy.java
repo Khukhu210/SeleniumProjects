@@ -18,7 +18,7 @@ public class AddVacancy {
 		loginpageobj.enterUserName();
 		loginpageobj.enterPassword();
 		loginpageobj.clickLogin();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 
 		
 		OrangeHRM_Menu orange = new OrangeHRM_Menu(driver);
