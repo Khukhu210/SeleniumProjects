@@ -27,7 +27,7 @@ public class LoginTest
 		driver = browserOperations.LaunchApplication("Chrome");
 
 		String actualTitle = browserOperations.getTitleOfBrowser();
-		// verify the application is launched
+		// verify the application is launched or not
 		/*
 		 * if(actualTitle.equals("OrangeHRM" )) System.out.println("Title matched");
 		 * else System.out.println("Title  not matched");
