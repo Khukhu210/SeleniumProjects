@@ -23,7 +23,7 @@ public class Assignment2 {
 		driver.findElement(By.id("passwd")).sendKeys("khukhu.1");
 		driver.findElement(By.id("SubmitLogin")).click();
 
-		// my page account is displayed
+		// my page account is displayed or not verifying
 		
 		 WebElement username = driver.findElement(By.cssSelector(".page-heading"));
 		  boolean res = username.isDisplayed();
