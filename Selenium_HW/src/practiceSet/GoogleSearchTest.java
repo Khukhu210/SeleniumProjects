@@ -18,6 +18,6 @@ public class GoogleSearchTest
 	
 		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("testing");
        
-	  // driver.findElements(By.xpath(""))  
+	  
 	}
 }
